@@ -1,0 +1,257 @@
+@keyframes blur{ from{ text-shadow:0px 0px 10px #d580ff, 0px 0px 10px #d580ff, 0px 0px 25px #ffc0cb, 0px 0px 25px #ffc0cb, 0px 0px 25px #fff, 0px 0px 25px #fff, 0px 0px 25px #fff, 0px 0px 25px #fff, 0px 0px 50px #fff, 0px 0px 50px #fff, 0px 0px 50px #7B96B8, 0px 0px 150px #7B96B8, 0px 10px 100px #7B96B8, 0px 10px 100px #7B96B8, 0px 10px 100px #7B96B8, 0px 10px 100px #7B96B8, 0px -10px 100px #7B96B8, 0px -10px 100px #7B96B8;} }
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+body
+{
+	background-color: #ff66cc;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~JUDUL DAFTAR LAGU ANAK~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+#Header
+{
+	height: 400px;
+	border-radius: 10px;
+	background-size: cover;
+	background-color: #ffc0cb;
+	background-image: url(kids1.jpg);
+
+	color: #330033; 
+	font-size: 50px;  
+	text-align:center; 
+	font-family: "Matura MT Script Capitals",arial;
+
+
+	animation:blur .75s ease-out infinite; 
+	text-shadow:0px 0px 5px #fff, 0px 0px 7px #fff; 	
+}
+
+.Judul
+{
+	border:3px;
+	margin: 20px auto;
+	max-width: 1100px;
+	border-radius: 5px;
+
+	padding: 10px;
+	overflow: hidden;
+	background-color: #ffc0cb;
+
+	box-shadow: 0px -1px 40px 10px rgba(205,133,63,1);
+    -moz-box-shadow: 0px -1px 40px 10px rgba(205,133,63,1);
+	-webkit-box-shadow: 0px -1px 40px 10px rgba(205,133,63,1);
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~ MENU DAFTAR LAGU ANAK ~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.Menu
+{
+	float: left;
+	margin: 10px;
+	width: 500px;
+	height: 650px;
+	padding: 10px;
+	overflow-y: scroll;
+	text-align: center; 
+	border-radius: 15px;
+	background-color: #000;
+
+	box-shadow: 0px -1px 40px 10px rgba(205,133,63,1);
+    -moz-box-shadow: 0px -1px 40px 10px rgba(205,133,63,1);
+	-webkit-box-shadow: 0px -1px 40px 10px rgba(205,133,63,1);
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~ ISI LAGU ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.isi
+{
+	float: right;
+	margin: 10px;
+	width: 500px;
+	height: 650px;
+	padding: 10px;
+	overflow-y: scroll;
+	text-align: center;
+	border-radius: 25px;
+	background: #ff9999;
+	background-color: #000;
+
+	box-shadow: 0px -1px 40px 10px rgba(205,133,63,1);
+    -moz-box-shadow: 0px -1px 40px 10px rgba(205,133,63,1);
+	-webkit-box-shadow: 0px -1px 40px 10px rgba(205,133,63,1); 
+}
+
+.isi img
+{
+	height: 200px;
+	max-width: 200px;
+	border-radius: 100%;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~ GAMBAR ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.img
+{	
+    float: auto;
+	width: 400px;
+	height: 325px;
+    margin: 10px auto;
+	display: block;
+	position: relative;
+    text-align: center; 
+
+    border-top: 5px solid #000;
+    border-bottom: 5px solid #000;
+    border-left: 10px solid #fff;
+    border-right: 10px solid #fff; 
+
+	text-shadow:#e6b3ff;
+    box-shadow: 2px 1px 50px 6px rgba(250,250,250,1);
+    -moz-box-shadow: 2px 1px 50px 6px rgba(250,250,250,1);
+	-webkit-box-shadow: 2px 1px 50px 6px rgba(250,250,250,1);
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~ JUDUL LAGU ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+h1
+{
+	width: 350px;
+	padding: 10px;
+	border-radius: 28px; 
+	background:white; 
+
+	display: block; 
+	margin: 0px auto;
+	text-align: center;
+
+	color: #ff3399;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: "Kristen ITC",verdana;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~ JUDUL LAGU (MENU) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+h2
+{
+	margin: auto;
+	width: 300px;  
+	padding: 5px;  
+	background: white;  
+	border-radius: 35px; 
+    border-left: 6px solid #ffc0cb; 
+    border-bottom: 10px solid #ffc0cb; 
+    border-right: 6px solid #ffc0cb;
+
+	color: #ff00ff;
+	text-align: center;
+	font-size: 20px;
+	font-family: "Courier New",arial;
+}
+
+.o:link, .o:visited
+{
+    padding: 4px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	background-color: #d580ff;
+
+	transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	-webkit-transition: all 0.8s;
+	-ms-transition: all 0.8s;
+  	-o-transition: all 0.8s
+}
+
+.o:hover, .o:active 
+{ 
+	text-shadow:#fff;
+	background-color:  #fff;  
+    box-shadow: 2px 1px 50px 6px rgba(250,250,250,1);
+    -moz-box-shadow: 2px 1px 50px 6px rgba(250,250,250,1);
+	-webkit-box-shadow: 2px 1px 50px 6px rgba(250,250,250,1);
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ BACK ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.y:link, .y:visited
+{
+    padding: 4px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	background-color: #ffb3e6;
+
+	transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	-webkit-transition: all 0.8s;
+	-ms-transition: all 0.8s;
+  	-o-transition: all 0.8s
+}
+
+.y:hover, .y:active
+{ 
+	text-shadow:#fff;
+	background-color:  #ff00ff;  
+    box-shadow: 2px 1px 50px 6px rgba(250,250,250,1);
+    -moz-box-shadow: 2px 1px 50px 6px rgba(250,250,250,1);
+	-webkit-box-shadow: 2px 1px 50px 6px rgba(250,250,250,1);
+
+	transform:rotate(30deg);
+	 -webkit-transform:rotate(30deg);
+	 -moz-transform:rotate(30deg);
+}
+
+
+a
+{
+	color: #000;
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 500px;
+	font-family: "Courier New",arial;
+	margin-bottom: 50px;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~ TEXT LAGU ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+p
+{
+	color: #fff;
+	font-size: 20px;
+	font-family: "consolas",verdana;
+	text-align: center;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+@media screen and (max-width: 1080px)
+{
+	.judul  
+	{
+		width: 100%;
+	}
+	.menu  
+	{
+		width: 25%;
+		background-color: #cdcd00;
+
+	}
+	.isi 
+	{
+		width: 68%;
+		float: right;
+	}	
+}
+
+@media screen and (max-width: 1000px)
+{
+	#header, 
+	{
+		text-align: center;
+	}
+	.menu , .isi 
+	{
+		width: auto;
+		float: none;
+	}		
+}
