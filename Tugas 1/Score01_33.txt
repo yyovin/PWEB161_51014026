@@ -1,0 +1,11 @@
+Score 01_33.txt - Tanggal 13-10-2016
++10 Tugas selesai min 5 lagu
++1  Tambahan 1 lagu
++12 Untuk 6 link ok
+-1  Untuk gambar tdk sesuai
++2  Untuk gambar Background 51014026.html
++6  Untuk 6 haalaman lagu yang bisa back home
++6  Untuk 6 judul lagu yang link ke wikipedia
++2  Untuk link ke facebook dari home
+-5  Untuk yg hari ini belum uploadke github
+33
