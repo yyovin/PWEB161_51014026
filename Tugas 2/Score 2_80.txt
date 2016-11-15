@@ -1,0 +1,12 @@
+20/10/16
++10 Tugas Siap
++20  Untuk 20 lagu tambahan sesudah 5 lagu tambahan
+-3   Tag yg tdk disebutkan
+
+27/10/16
++10 Untuk Tugas Dikerjakan
+-9 Untuk setiappenggunaan warna dalam css
++20 Untuk setiap selector
++50 Untuk setiap pemanggilan class
+
+Jumlah = 80
