@@ -1,0 +1,7 @@
+Theme: Agency (https://github.com/BlackrockDigital/startbootstrap-agency/archive/gh-pages.zip)
++10  Untuk tgs yg di commit sebelum tanggal 09/11/2016
++2    Untuk setiap commit setelah commit pertama sebelum tanggal 09/11/2016
+ +84 Untuk 42 class yg overwrites
++9    Untuk 3 class yang dibuat sendiri
++8    Untuk 4 Fontawesome baru yang tdk ada di theme asli
++113=Total
