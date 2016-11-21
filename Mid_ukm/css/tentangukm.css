@@ -1,8 +1,3 @@
-/*!
- * Start Bootstrap - Business Casual (http://startbootstrap.com/)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
- */
 
 body {
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -15,7 +10,7 @@ body {
 
 .container {
   width: 100%;
-  color: #ff00ab;
+  color: #30f;
 }
 
 h1,
@@ -42,28 +37,36 @@ hr {
 }
 
 h3{
-  color: #ffc0cb;
+  color: #30f;
   font-weight: bold;
   text-align: center;
   letter-spacing: 1px;
   text-transform: none;
   font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
+
+.intro-text {
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
 /*--------------------------------- Button ------------------------------ */
 
 .btn-info {
-    color: #FFF;
-    background-color: #ffc0cb;
-    float: right !important;
-    margin: 10px auto;
-    border: #FF002D;
-    box-shadow: 2px 1px 50px 6px #FFF
+  color: #FFF;
+  background-color: #ff0;
+  float: right !important;
+  margin: 10px auto;
+  border: medium none rgba(0, 57, 255, 0);
+  box-shadow: 2px 1px 50px 6px rgba(245, 251, 5, 0.85);
 }
 .btn-info:hover, .btn-info:focus, .btn-info:active, .btn-info.active {
     color: #FFF;
-    background-color: #D08CFF;
-    border-color: #DC99FF;
-    box-shadow: 2px 1px 50px 6px #D485FE;
+    background-color: #30f;
+    border-color: #30f;
+    box-shadow: 2px 1px 50px 6px #30f;
 }
 .fa {
     display: inline-block;
@@ -101,35 +104,35 @@ h3{
 }
 
 .navbar-inverse {
-  background-color: #ffc0cb;
+  background-color: #001C93;
   border-color: #FFF;
 }
+/*--------------------------- Drop Down Menu -----------------------------*/
+.navbar-inverse .navbar-nav > .open > a, 
+.navbar-inverse .navbar-nav > .open > a:focus, 
+.navbar-inverse .navbar-nav > .open > a:hover {
+  color: #ff0;
+  background-color: #30f;
+}
+.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
+  color: #ff0;
+  text-decoration: none;
+  background-color: #30f;
+}
+/*------------------------------------------------------------------------*/
 
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
   color: #D633FF;
   background-color: #FC81D4;
 }
-/*----------------------- Navbar Info Kegiatan -----------------------------*/
-.navbar-inverse .navbar-nav > .open > a, 
-.navbar-inverse .navbar-nav > .open > a:focus, 
-.navbar-inverse .navbar-nav > .open > a:hover {
-  color: #FF00ab;
-  background-color: rgb(255, 223, 229);
-}
-.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
-  color: #FFF;
-  text-decoration: none;
-  background-color: #ffc0cb;
-}
-/*------------------------------------------------------------------------*/
 
 /*------------------------- Navbar Focus Button ------------------------- */
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
-  color: rgba(255, 0, 162, 0.9);
-  background-color: rgba(255, 210, 231, 0.92);
+  color: #ff0;
+  background-color: #001C93;
 }
 .navbar-inverse .navbar-nav > li > a {
-  color: rgb(255, 0, 171);
+  color: #ff0;
   font-weight: bold;
 }
 /*------------------------------------------------------------------------*/
@@ -140,6 +143,14 @@ h3{
 }
 /*------------------------------------------------------------------------*/
 
+/*--------------------------- Navbar Toggle ------------------------------*/
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+  background-color: #ff0;
+}
+.navbar-inverse .navbar-toggle {
+  border-color: #fff;
+}
+/*------------------------------------------------------------------------*/
 .navbar-brand {
     text-transform: uppercase;
     font-weight: 900;
@@ -176,20 +187,18 @@ h3{
     border-color: #999999;
 }
 
+/*---------------------------------- BOX ---------------------------------*/
 .box {
-    margin-bottom: 20px;
-    padding: 30px 15px;
-    background: #fff;
-    background: rgba(255,255,255,0.9);
+  margin-bottom: 20px;
+  padding: 30px 15px;
+  border: 3px dashed #30F;
+  border-radius: 0px 100px;
+  background: rgba(255, 255, 0, 0.64);
 }
-
-.intro-text {
-    text-transform: uppercase;
-    font-size: 2em;
-    font-weight: 400;
-    letter-spacing: 1px;
 }
+/*------------------------------------------------------------------------*/
 
+/*-------------------------------- Gambar --------------------------------*/
 .img-border {
     float: none;
     margin: 0 auto 0;
@@ -200,25 +209,48 @@ h3{
     float: none;
     margin: 0 auto 0;
 }
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 560px;
+}
 
+/*------------------------------------------------------------------------*/
+}
 footer p {
     margin: 0;
     padding: 15px 0;
 }
 
 @media screen and (min-width:768px) {
+/*--------------------------------- Header ------------------------------ */
     .brand {
       display: inherit;
       margin: 0px;
       padding: 30px 0px 10px;
       text-align: center;
-      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+      text-shadow: 1px 1px 2px #ff0;
       font-family: "Josefin Slab",Arial,sans-serif;
       font-size: 5em;
       font-weight: 700;
       line-height: normal;
-      color: #FFF;
+      color: #30f;
     }
+
+    .address-bar {
+      display: inherit;
+      margin: 0px;
+      padding: 0px 0px 40px;
+      text-align: center;
+      text-shadow: 1px 1px 2px #ff0;
+      text-transform: uppercase;
+      font-size: 1.80em;
+      font-weight: 400;
+      letter-spacing: 3px;
+      color: #30f;
+    }
+/*------------------------------------------------------------------------*/
 
     .top-divider {
         margin-top: 0;
@@ -227,18 +259,6 @@ footer p {
     .img-left {
         float: left;
         margin-right: 25px;
-    }
-    .address-bar {
-        display: inherit;
-        margin: 0px;
-        padding: 0px 0px 40px;
-        text-align: center;
-        text-shadow: 1px 1px 2px rgba(255, 0, 252, 0.73);
-        text-transform: uppercase;
-        font-size: 2em;
-        font-weight: 400;
-        letter-spacing: 3px;
-        color: #FFF;
     }
 
     .navbar {
@@ -284,8 +304,8 @@ footer p {
     }
 }
 
-.box {
-    margin-bottom: 20px;
-    padding: 30px 15px;
-    background: rgba(255, 183, 196, 0.68);
+
+*::-moz-selection {
+  text-shadow: none;
+  background: rgba(255, 255, 0, 0.82) none repeat scroll 0% 0%;
 }

@@ -6,10 +6,11 @@ body {
   background: url("../img/bg.jpg");
   color: #5a5a5a;
   padding-bottom: 40px;
+  font-family: "Josefin Slab","Open Sans",Arial,sans-serif;
 }
 .container {
   width: 100%;
-  color: #ffc0cb;
+  color: #30f;
 }
 /*--------------------------------- Header ------------------------------ */
 .brand {
@@ -17,12 +18,12 @@ body {
   margin: 0px;
   padding: 30px 0px 10px;
   text-align: center;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  text-shadow: 1px 1px 2px #ff0;
   font-family: "Josefin Slab",Arial,sans-serif;
   font-size: 5em;
   font-weight: 700;
   line-height: normal;
-  color: #FFF;
+  color: #30f;
 }
 
 .address-bar {
@@ -30,52 +31,82 @@ body {
   margin: 0px;
   padding: 0px 0px 40px;
   text-align: center;
-  text-shadow: 1px 1px 2px rgba(255, 0, 252, 0.73);
+  text-shadow: 1px 1px 2px #ff0;
   text-transform: uppercase;
-  font-size: 2em;
+  font-size: 1.80em;
   font-weight: 400;
   letter-spacing: 3px;
-  color: #FFF;
+  color: #30f;
 }
 /*------------------------------------------------------------------------*/
 
 /*--------------------------------- Button ------------------------------ */
 .btn-info {
-    color: #FFF;
-    background-color: #ffc0cb;
-    float: right !important;
-    margin: 10px auto;
-    border: #FF002D;
-    box-shadow: 2px 1px 50px 6px #FFF
+  color: #FFF;
+  background-color: #ff0;
+  float: right !important;
+  margin: 10px auto;
+  border: medium none rgba(0, 57, 255, 0);
+  box-shadow: 2px 1px 50px 6px rgba(245, 251, 5, 0.85);
 }
 .btn-info:hover, .btn-info:focus, .btn-info:active, .btn-info.active {
     color: #FFF;
-    background-color: #D08CFF;
-    border-color: #DC99FF;
-    box-shadow: 2px 1px 50px 6px #D485FE;
+    background-color: #30f;
+    border-color: #30f;
+    box-shadow: 2px 1px 50px 6px #30f;
 }
-
+.btn-default {
+  color: #FFF;
+  background-color: #0002AD;
+  border-color: #6953FB;
+}
 /*------------------------------------------------------------------------*/
 
 /*---------------------------------- Text ------------------------------- */
+h1,h2,h3,h4,p,a{
+  line-height: 1.1;
+  font-weight: 500;
+}
+a{
+  font-size: 1em;
+}
+p {
+  color: #000;
+  font-family: "consolas";
+  font-size: 1.50em;
+}
+h1 {
+  text-align: center;
+  font-family: "Matura MT Script Capitals";
+  color:#30f;
+  font-size: 42px;
+}
 h2{
-  color:#FF00ab;
+  color:#30f;
   font-family: "Montserrat";
 }
-p{
-  color: #000;
-  font-weight: bold;
-  font-family: "consolas";
-}
 h3{
-  color: #ffc0cb;
+  color: #30f;
   font-weight: bold;
   text-align: center;
   letter-spacing: 1px;
   text-transform: none;
   font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
+.judulindex{
+  font-size: 52px;
+}
+.size{
+  font-size: 34px;
+}
 /*------------------------------------------------------------------------*/
+.img-style{
+  vertical-align: middle;
+  border-radius: 20%;
+  border-width: 5px 10px;
+  border-style: solid;
+  border-color: #ff0 #30f;
+}
 
 /* Flip around the padding for proper display in narrow viewports */
 .navbar-collapse {
@@ -86,19 +117,6 @@ h3{
   margin-bottom: 0px;
   list-style: outside none none;
 }
-/*----------------------- Navbar Info Kegiatan -----------------------------*/
-.navbar-inverse .navbar-nav > .open > a, 
-.navbar-inverse .navbar-nav > .open > a:focus, 
-.navbar-inverse .navbar-nav > .open > a:hover {
-  color: #FF00ab;
-  background-color: rgb(255, 223, 229);
-}
-.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
-  color: #FFF;
-  text-decoration: none;
-  background-color: #ffc0cb;
-}
-/*------------------------------------------------------------------------*/
 .navbar-wrapper > .container {
   padding-right: 0;
   padding-left: 0;
@@ -112,17 +130,31 @@ h3{
 }
 
 .navbar-inverse {
-  background-color: #ffc0cb;
+  background-color: #001C93;
   border-color: #FFF;
 }
-
-.navbar-inverse .navbar-nav > .active > a, 
-.navbar-inverse .navbar-nav > .active > a:focus, 
-.navbar-inverse .navbar-nav > .active > a:hover {
-  color: #ff00ab;
-  background-color: #FFDFE5;
+/*--------------------------- Drop Down Menu -----------------------------*/
+.navbar-inverse .navbar-nav > .open > a, 
+.navbar-inverse .navbar-nav > .open > a:focus, 
+.navbar-inverse .navbar-nav > .open > a:hover {
+  color: #ff0;
+  background-color: #30f;
 }
+.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
+  color: #ff0;
+  text-decoration: none;
+  background-color: #30f;
+}
+/*------------------------------------------------------------------------*/
 
+/*--------------------------- Navbar Toggle ------------------------------*/
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+  background-color: #ff0;
+}
+.navbar-inverse .navbar-toggle {
+  border-color: #fff;
+}
+/*------------------------------------------------------------------------*/
 .navbar-nav {
   float: left;
   font-size: 1.25em;
@@ -135,14 +167,13 @@ h3{
   padding: 25px;
 }
 /*------------------------- Navbar Focus Button ------------------------- */
-.navbar-inverse .navbar-nav > .active > a, 
-.navbar-inverse .navbar-nav > .active > a:focus, 
-.navbar-inverse .navbar-nav > .active > a:hover {
-  color: rgba(255, 0, 162, 0.9);
-  background-color: rgba(255, 210, 231, 0.92);
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
+  color: #ff0;
+  background-color: #001C93;
 }
+
 .navbar-inverse .navbar-nav > li > a {
-  color: rgb(255, 0, 171);
+  color: #ff0;
   font-weight: bold;
 }
 /*------------------------------------------------------------------------*/
@@ -186,7 +217,7 @@ h3{
   top: 0px;
   left: 0px;
   min-width: 100%;
-  height: 800px;
+  height: 600px;
 }
 
 
@@ -210,9 +241,8 @@ h3{
 
 /* Featurettes
 ------------------------- */
-
 .featurette-divider {
-  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+  margin: 30px 0px;
 }
 
 /* Thin out the marketing headings */
@@ -263,31 +293,72 @@ h3{
     margin-top: 120px;
   }
 }
-
+/*---------------------------------- BOX ---------------------------------*/
 .row {
-  background-color: rgba(255, 192, 203, 0.69)
+  background-color: rgba(255, 255, 0, 0.64);
+}
+.normal {
+  border-radius: 0px 0px;
+  background-color: #fff;
+  margin: 35px 0px 35px 0px;  
+}
+.box {
+  border:5px dotted #30f;
+  background-color: #fff;
+  border-radius: 0px 100px;
+  margin: 35px 0px 35px 0px;    
+}
+.br{
+  border:5px dashed #30f;
+  border-radius: 0px 100px;
+  background-color: rgba(255, 255, 0, 0.64);
+}
+.box-spasi {
+  padding: 30px 15px;
+  margin-bottom: 20px;
 }
 
+/*------------------------------------------------------------------------*/
+
+/*-------------------------------- Spasi ---------------------------------*/
 .featurette {
   padding: 20px 0px 20px 0px;
 }
+/*------------------------------------------------------------------------*/
 
+/*----------------------------- Judul Hari Raya --------------------------*/
 .col-lg-12 {
   width: 100%;
   height: 100%;
-  padding: 125px;
+  padding: 35px;
   border-radius: 10px;
-  background-size: cover;
-  background-image: url("../img/buddha.jpg");
 }
+/*------------------------------------------------------------------------*/
 
-.col-lg-12, h1 {
-  text-align: center;
-  font-family: "Matura MT Script Capitals";
-  color:#ff00ab;
-  font-size: 42px;
+/*------------------------------ Panel Artikel ---------------------------*/
+.panel-default {
+  border-color: #FFF;
 }
+.panel {
+  margin-bottom: 20px;
+  background-color: #FCFC23;
+  border: 2px solid #30f;
+  border-radius: 4px;
+  box-shadow: 0px 1px 1px #8D8BFF;
+}
+.panel-default > .panel-heading {
+  color: #FFF;
+  background-color: #001D99;
+  border-color: #30F;
+}
+.page-header {
+  padding-bottom: 9px;
+  /* margin: 40px 0px 20px; */
+  border-bottom: 1px solid #30F;
+}
+/*------------------------------------------------------------------------*/
 
-.size{
-  font-size: 34px;
+*::-moz-selection {
+  text-shadow: none;
+  background: rgba(255, 255, 0, 0.82) none repeat scroll 0% 0%;
 }
