@@ -12,6 +12,11 @@ body {
     color: #5a5a5a;
     padding-bottom: 40px;
 }
+#logo{
+  background-color: #001C93;
+  margin: 0px 0px 0px 0px;
+  padding: 5px;
+}
 .container {
   width: 100%;
   color: #30f;
