@@ -21,6 +21,9 @@ body {
   width: 100%;
   color: #30f;
 }
+.color{
+  background-color: #fff;
+}
 hr {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -339,7 +342,7 @@ h4{
 .br{
   border:5px dashed #30f;
   border-radius: 0px 100px;
-  background-color: rgba(255, 255, 0, 0.64);
+  background-color: rgb(255, 255, 105);
 }
 .box-spasi {
   padding: 30px 15px;
@@ -420,6 +423,31 @@ a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, 
   padding-bottom: 9px;
   /* margin: 40px 0px 20px; */
   border-bottom: 1px solid #30F;
+}
+/*------------------------------------------------------------------------*/
+
+/*------------------------------- FORM --------------------------------*/
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  margin-left: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 15px;
+}
+.pmargin{
+  margin-left: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 15px;
+}
+input[type="checkbox"], input[type="radio"] {
+  margin: 4px 0 0;
+  margin-top: 1px\9;
+  line-height: normal;
+  margin-left: 70px;
+  padding: 15px;
 }
 /*------------------------------------------------------------------------*/
 

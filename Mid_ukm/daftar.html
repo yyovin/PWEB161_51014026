@@ -1,55 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-
-  <head>
+  <head><base href="https://raw.githubusercontent.com/KevinMichael02/PWEB161_51014014/master/mid_ukm/pendaftaran.html">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="../../favicon.ico">
 
-    <title> Pendaftaran UKM BODHIVIJJA</title>
+    <title>Carousel Template for Bootstrap</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
-    <!-- Custom Fonts -->
-    <link href="vendor/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="assets/js/ie-emulation-modes-warning.js"></script>
+    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script type="text/htmlpreview" src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script type="text/htmlpreview" src="js/ie-emulation-modes-warning.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <script type="text/htmlpreview" src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script type="text/htmlpreview" src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
     <!-- Custom styles for this template -->
-    <link href="css/indexukm.css" rel="stylesheet">
+    <link href="css/carousel.css" rel="stylesheet">
+     <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
-
-
-
+<!-- NAVBAR
+================================================== -->
   <body>
 
-    <div class="logo" src="../img/logoukm">
-    <div class="brand">UKM Agama Buddha</div>
-    <div class="address-bar">JL.BajiAteka No 20, Makassar - Sulawesi Selatan</div>
-    </div>
 
-<!-- ========================= NAVBAR ========================= -->
+
+
     <div class="navbar-wrapper">
       <div class="container">
 
@@ -62,25 +50,18 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
+
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                <li class="active"><a href="index.html"data-dismiss="modal"><span class="glyphicon glyphicon-home"></span> Halaman Utama</a></li>
-                <li><a href="tentang.html">Tentang Agama Buddha</a></li>
-                <li><a href="organisasi.html" data-dismiss="modal"><i class="fa fa-users" aria-hidden="true"></i>
-                 Struktur Organisasi </a></li>
-                <li><a href="kegiatan.html"><i class="fa fa-info" aria-hidden="true"></i>
-                 Info Kegiatan </a></li>
-                <li class="dropdown">
-                  <a href="pendaftaran.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-angle-double-down" aria-hidden="true"></i>
-                  Form</a>
-                  <ul class="dropdown-menu">
-                    <li><a href="pukm.html" target="_blank"><i class="fa fa-user-plus" aria-hidden="true"></i>
-                    <b>Pendaftaran UKM </b></a></li>
-                    <li><a href="pkukm.html" target="_blank"><i class="fa fa-user-plus" aria-hidden="true"></i>
-                    <b>Pendaftaran Ketua UKM</b></a></li>
-                  </ul>
-                </li>                
+                 <li><a href="index.html">Home</a></li>
+
+                <li><a href="jadwal.html">Jadwal</a></li>
+                <li><a href="struktur.html">Struktur organisasi</a></li>
+                <li class="active"><a href="pendaftaran.html">Pendaftaran Anggota</a></li>
+                <li><a href="formulir.html">Formulir</a></li>
+                <li><a href="visi.html">Visi & Misi</a></li>
+
               </ul>
             </div>
           </div>
@@ -90,9 +71,11 @@
     </div>
 
 
-<!-- ========================= Caraosel ========================= -->
+    <!-- Carousel
+    ================================================== -->
+
+
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <div class="row">
       <!-- Indicators -->
       <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -101,13 +84,34 @@
       </ol>
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <img class="first-slide" src="img/picture1.jpg" alt="First slide">
+          <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Example headline.</h1>
+              <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+            </div>
+          </div>
         </div>
         <div class="item">
-          <img class="second-slide" src="img/picture2.jpg" alt="Second slide">
+          <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Another example headline.</h1>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+            </div>
+          </div>
         </div>
         <div class="item">
-          <img class="third-slide" src="img/picture3.jpg" alt="Third slide">
+          <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>One more for good measure.</h1>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+            </div>
+          </div>
         </div>
       </div>
       <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
@@ -118,33 +122,30 @@
         <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
       </a>
-    </div>
     </div><!-- /.carousel -->
 
-    <br class="featurette-divider">
 
-<!-- =========================== Tabel =========================== -->
-      <div class="none">
-        <table background-color="#001D99" border="4" align="center" height="800" width="900" cellpadding="20">
-        <tbody class="color">
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <table border="4" bgcolor="A9C5EB" align="center" height="500" width="400" cellpadding="20">
         <tr>
         <td>
-        <b><font color="black" size="6"> Pendaftaran Ketua UKM BODHIVIJJA </font></b><br>
-        <input type="text" Name="Nama" size="20" placeholder="Nama Depan">
-        <input type="text" Name="Nama" size="20" placeholder="Nama Belakang"><br><br>
-        <input type="radio" name="Kelamin" value="L">Laki Laki
-        <input type="radio" name="Kelamin" value="P">Perempuan
-        <br><br>
-        <input type="text" Name="NIM" size="46" placeholder="Masukan NIM"><br><br> 
-        <input type="text" Name="Jurusan" size="46" placeholder="Masukan Jurusan"><br><br> 
-        <input type="text" Name="Alamat" size="46" placeholder="Masukan Alamat"><br><br>
-        <input type="text" Name="NoHp" size="46" placeholder="Masukan No HP"><br><br>        
-        <input type="text" Name="Email" size="46" placeholder="Email Anda"><br><br>
-        <p class="pmargin"><b> Vegetarian </b></p>
-        <input type="radio" name="Vegetarian" value="Y">Ya
-        <input type="radio" name="Vegetarian" value="T">Tidak
-        <br><br>
-        <p class="pmargin"><b> Tanggal Lahir </b></p>
+        <b><font color="black" size="10"> Mendaftar </font></b>
+        <p> Gratis, untuk pelajar </p>
+        <input type="text" Name="nama" size="20" placeholder="Nama Depan">
+        <input type="text" Name="nama" size="20" placeholder="Nama Belakang"><br><br>
+        <input type="text" Name="email" size="46" placeholder="Email Anda"><br><br>
+        <input type="text" Name="remail" size="46" placeholder="Masukan Ulang Email"><br><br>
+        <input type="password" Name="sandi" size="46" placeholder="Kata Sandi Baru"><br>
+        <p><b> Tanggal Lahir </b></p>
         <select name="Tanggal">
         <option>-Tanggal-</option>
         <option value="1">1</option>
@@ -234,23 +235,31 @@
         <option value="2014">2014</option>
         <option value="2015">2015</option>
         </select><br><br>
-        <input value="Kirim" style="background-color: 4985D0; height: 50; width: 150;"type="submit"></input>
+        <input type="radio" name="Kelamin" value="L">Laki Laki
+        <input type="radio" name="Kelamin" value="P">Perempuan
+        <br><br>
+        <input value="Kirim" style="background-color: 4985D0; height: 50; width: 150;"type="submit">
         </td>
         </tr>
-
-
-        <!-- Bootstrap core JavaScript
-        ================================================== -->
-        <!-- Placed at the end of the document so the pages load faster -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.min.js"><\/script>')</script>
-        <script src="dist/js/bootstrap.min.js"></script>
-        <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
-        <script src="assets/js/vendor/holder.min.js"></script>
-        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-        <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
-        </tbody>
-        </table>
+        </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
-  </body>
+
+
+      <!-- START THE FEATURETTES -->
+
+
+<!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/htmlpreview" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/htmlpreview">window.jQuery || document.write('<script type="text/htmlpreview" src="js/vendor/jquery.min.js"><\/script>')</script>
+    <script type="text/htmlpreview" src="js/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script type="text/htmlpreview" src="js/vendor/holder.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script type="text/htmlpreview" src="js/ie10-viewport-bug-workaround.js"></script>
+  <script src="//htmlpreview.github.io/htmlpreview.min.js"></script><script>HTMLPreview.replaceAssets();</script></body>
 </html>

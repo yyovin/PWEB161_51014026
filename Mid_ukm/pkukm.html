@@ -11,7 +11,7 @@
     <meta name="author" content="">
     <link rel="icon" href="favicon.ico">
 
-    <title> Kegiatan Agama Buddha</title>
+    <title> Pendaftaran Ketua UKM BODHIVIJJA</title>
 
     <!-- Bootstrap core CSS -->
     <link href="dist/css/bootstrap.min.css" rel="stylesheet">
@@ -66,14 +66,19 @@
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
                 <li class="active"><a href="index.html"data-dismiss="modal"><span class="glyphicon glyphicon-home"></span> Halaman Utama</a></li>
-                <li><a href="tentang.html" target="_blank">Tentang Agama Buddha</a></li>
-                <li><a href="organisasi.html" target="_blank" data-dismiss="modal"><i class="material-icons">people</i> Struktur Organisasi </a></li>
-                <li><a href="kegiatan.html" target="_blank"><i class="material-icons">event</i> Info Kegiatan </a></li>
+                <li><a href="tentang.html">Tentang Agama Buddha</a></li>
+                <li><a href="organisasi.html" data-dismiss="modal"><i class="fa fa-users" aria-hidden="true"></i>
+                 Struktur Organisasi </a></li>
+                <li><a href="kegiatan.html"><i class="fa fa-info" aria-hidden="true"></i>
+                 Info Kegiatan </a></li>
                 <li class="dropdown">
-                  <a href="pendaftaran.html" target="_blank" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="material-icons">note_add</i>Formulir<span class="caret"></span></a>
+                  <a href="pendaftaran.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-angle-double-down" aria-hidden="true"></i>
+                  Form</a>
                   <ul class="dropdown-menu">
-                    <li><a href="pukm.html"> Pendaftaran UKM </a></li>
-                    <li><a href="pkukm.html"> Pendaftaran Ketua UKM</a></li>
+                    <li><a href="pukm.html" target="_blank"><i class="fa fa-user-plus" aria-hidden="true"></i>
+                    <b>Pendaftaran UKM </b></a></li>
+                    <li><a href="pkukm.html" target="_blank"><i class="fa fa-user-plus" aria-hidden="true"></i>
+                    <b>Pendaftaran Ketua UKM</b></a></li>
                   </ul>
                 </li>                
               </ul>
@@ -121,17 +126,21 @@
 <!-- =========================== Tabel =========================== -->
       <div class="none">
         <table background-color="#001D99" border="4" align="center" height="800" width="900" cellpadding="20">
-        <tbody >
+        <tbody class="color">
         <tr>
         <td>
-        <b><font color="black" size="10"> Mendaftar </font></b>
-        <p> Gratis, untuk pelajar </p>
-        <input type="text" Name="nama" size="20" placeholder="Nama Depan">
-        <input type="text" Name="nama" size="20" placeholder="Nama Belakang"><br><br>
-        <input type="text" Name="email" size="46" placeholder="Email Anda"><br><br>
-        <input type="text" Name="remail" size="46" placeholder="Masukan Ulang Email"><br><br>
-        <input type="password" Name="sandi" size="46" placeholder="Kata Sandi Baru"><br>
-        <p><b> Tanggal Lahir </b></p>
+        <b><font color="black" size="6"> Pendaftaran Ketua UKM BODHIVIJJA </font></b><br>
+        <input type="text" Name="Nama" size="20" placeholder="Nama Depan">
+        <input type="text" Name="Nama" size="20" placeholder="Nama Belakang"><br><br>
+        <input type="radio" name="Kelamin" value="L">Laki Laki
+        <input type="radio" name="Kelamin" value="P">Perempuan
+        <br><br>
+        <input type="text" Name="NIM" size="46" placeholder="Masukan NIM"><br><br> 
+        <input type="text" Name="Jurusan" size="46" placeholder="Masukan Jurusan"><br><br> 
+        <input type="text" Name="Alamat" size="46" placeholder="Masukan Alamat"><br><br>
+        <input type="text" Name="NoHp" size="46" placeholder="Masukan No HP"><br><br>        
+        <input type="text" Name="Email" size="46" placeholder="Email Anda"><br><br>
+        <p class="pmargin"><b> Tanggal Lahir </b></p>
         <select name="Tanggal">
         <option>-Tanggal-</option>
         <option value="1">1</option>
@@ -221,12 +230,15 @@
         <option value="2014">2014</option>
         <option value="2015">2015</option>
         </select><br><br>
-        <input type="radio" name="Kelamin" value="L">Laki Laki
-        <input type="radio" name="Kelamin" value="P">Perempuan
-        <br><br>
+        <p class="pmargin"><b> Berikan 1 alasan kenapa anda harus menjadi ketua ? </b></p>
+        <input type="text" Name="Tulis" size="46" placeholder="Tulis"><br><br>
+        <p class="pmargin"><b> Apa yang akan anda lakukan apabila sudah terpilih menjadi ketua ukm ? Dan apa tujuan anda ?</b></p>        
+        <input type="text" Name="Tulis" size="46" placeholder="Tulis"><br><br>                
         <input value="Kirim" style="background-color: 4985D0; height: 50; width: 150;"type="submit"></input>
         </td>
         </tr>
+
+
         <!-- Bootstrap core JavaScript
         ================================================== -->
         <!-- Placed at the end of the document so the pages load faster -->
