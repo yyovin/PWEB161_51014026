@@ -14,4 +14,4 @@
 	Jurusan			: Sistem informasi - Komputer Akuntansi
 	</h2>
 </pre>
-<hr>
+<hr><br>

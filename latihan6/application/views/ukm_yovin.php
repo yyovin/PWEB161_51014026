@@ -14,4 +14,4 @@ Membentuk karakter pemuda-pemudi Buddhis yang unggul dan dapat mengembangkan Bud
 </h2>
 
 </pre>
-<hr>
+<hr><br>

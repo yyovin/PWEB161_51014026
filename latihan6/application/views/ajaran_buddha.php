@@ -22,4 +22,4 @@ Dalam perjalanan sejarahnya, Mahayana menyebar keseluruh Asia Timur. Negara-nega
 Vajrayana adalah suatu ajaran Buddha yang di Indonesia lebih sering dikenal dengan nama Tantra atau Tantrayana. Namun banyak juga istilah lain yang digunakan, seperti misalnya: mantrayana, ajaran mantra rahasia, ajaran Buddha eksoterik. Vajrayana adalah merupakan ajaran yang berkembang dari ajaran Buddha Mahayana, dan berbeda dalam hal praktek, bukan dalam hal filosofi.<br>
 	</h2></ol></p>
 
-<hr>
+<hr><br>
