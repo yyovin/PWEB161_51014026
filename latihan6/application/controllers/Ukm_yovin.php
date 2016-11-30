@@ -6,6 +6,6 @@ class Ukm_yovin extends CI_Controller {
 
 	public function index()
 	{
-		$this->load->view('ukm');
+		$this->load->view('Ukm_yovin');
 	}
 }
